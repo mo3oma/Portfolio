@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nayoon's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap"
+    rel="stylesheet">
+
+  </head>
+  <body>
+    <a href="#target6" class="scroll">
+    <header id="anchor6">
+    </a>
+    <nav class="bar">
+      <div class="bar__logo">
+        <a href="#anchor6"><img src="img/logo.png"
+          alt="logo"></a>
+      </div>
+
+      <ul class="bar__menu">
+      <a href="#target1" class="scroll">
+        <li><a href="#anchor1">UI/UX</a></li>
+      </a>
+      <a href="#target2" class="scroll">
+        <li><a href="#anchor2">WEB</a></li>
+      </a>
+      <a href="#target3" class="scroll">
+        <li><a href="#anchor3">EMOTICON</a></li>
+      </a>
+      <a href="#target4" class="scroll">
+        <li><a href="#anchor4">POSTER</a></li>
+      </a>
+      <a href="#target5" class="scroll">
+        <li><a href="#anchor5">CONTACT</a></li>
+      </a>
+    </header>
+    <section>
+
+        <div class="main">
+          <img src="img/main.png" alt="">
+        </div>
+  <div id="target5">
+      <div class="cont2" id="anchor5">
+        <img src="img/profile.png" alt="">
+      </div>
+  </div>
+  <div id="target1">
+      <div class="title1" id="anchor1">
+        <img src="img/UIUX.png" alt="">
+      </div>
+  </div>
+      <div class="cont3">
+        <img src="img/ysl.png" alt="">
+      </div>
+      <div class="cont4">
+        <img src="img/ysl mockup.png" alt="">
+      </div>
+      <div class="cont5">
+        <img src="img/closet.png" alt="">
+      </div>
+      <div class="cont6">
+        <img src="img/yoryjory.png" alt="">
+      </div>
+      <div class="cont7">
+        <img src="img/yory design.png" alt="">
+      </div>
+  <div id="target2">
+      <div class="title2" id="anchor2">
+        <img src="img/web.png" alt="">
+      </div>
+  </div>
+      <div class="cont8">
+        <img src="img/bam.png" alt="">
+      </div>
+      <div class="cont9">
+        <img src="img/bam design.png" alt="">
+      </div>
+  <div id="target3">
+      <div class="title3" id="anchor3">
+        <img src="img/emo.png" alt="">
+      </div>
+  </div>
+      <div class="cont10">
+        <img src="img/emoticon.png" alt="">
+      </div>
+  <div id="target4">
+      <div class="title4" id="anchor4">
+        <img src="img/poster.png" alt="">
+      </div>
+  </div>
+      <div class="cont11">
+        <img src="img/dreamy.png" alt="">
+      </div>
+      <div class="cont12">
+        <img src="img/dreary.png" alt="">
+      </div>
+      <div class="cont13">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PtmOV3_E8OE"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      </div>
+      <div class="cont14">
+        <img src="img/copy.png" alt="">
+      </div>
+
+      <ul class="top__icon">
+    <a href="#target6" class="scroll">
+      <li><a href="#anchor6">TOP</a></li>
+    </a>
+
+    </section>
+
+    <script>
+jQuery(document).ready(function($) {
+
+        $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 50);
+        });
+});
+</script>
+
+  </body>
+</html>
